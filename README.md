@@ -8,6 +8,21 @@
 
 A Laravel package to manage HubSpot API interactions with rollback capabilities.
 
+## Setup
+
+Installation
+
+```
+composer require engaging-io/hubspot-manager
+```
+
+<br>
+Add this to your `.env` file
+
+```env
+HUBSPOT_API_KEY=<HubSpot Private App Access Token>
+```
+
 ## Usage
 
 ```php
