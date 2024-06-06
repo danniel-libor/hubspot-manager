@@ -1,0 +1,30 @@
+{
+    "name": "engaging-io/hubspot-manager",
+    "description": "A Laravel package to manage HubSpot API interactions with rollback capabilities.",
+    "type": "library",
+    "require": {
+        "php": "^7.3|^8.0|^8.1|^8.2",
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.9",
+        "hubspot/api-client": "^11.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "EngagingIo\\HubSpotManager\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EngagingIo\\HubSpotManager\\HubSpotManagerServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Danniel Libor",
+            "email": "danniel@engaging.io"
+        }
+    ],
+    "minimum-stability": "stable"
+}
